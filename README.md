@@ -201,7 +201,7 @@ MIT License - see LICENSE file for details
 
 ## Support
 
-For support, email support@dailyagendaapp.com or create an issue on GitHub.
+For support, email support@dailytech.com or create an issue on GitHub.
 
 ---
 
