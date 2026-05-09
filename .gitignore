@@ -5,11 +5,20 @@
 *.swp
 .DS_Store
 .atom/
+<<<<<<< HEAD
 .buildlog/
 .history
 .svn/
 .vscode/
 migrate/
+=======
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+>>>>>>> 55b24b6 (daily app)
 
 # IntelliJ related
 *.iml
@@ -18,13 +27,20 @@ migrate/
 .idea/
 
 # The .vscode folder contains launch configuration and tasks you configure in
+<<<<<<< HEAD
 # VS Code which you may wish to be committed to your repository.
 .vscode/
+=======
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+>>>>>>> 55b24b6 (daily app)
 
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
+<<<<<<< HEAD
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
@@ -34,6 +50,13 @@ migrate/
 
 # Web related
 lib/generated_plugins.dart
+=======
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+>>>>>>> 55b24b6 (daily app)
 
 # Symbolication related
 app.*.symbols
@@ -41,6 +64,7 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
+<<<<<<< HEAD
 # iOS/macOS
 **/ios/**/*.mode1v3
 **/ios/**/*.mode2v3
@@ -81,3 +105,18 @@ coverage/
 
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+=======
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Node.js
+server/node_modules/
+server/*.db
+server/*.db-journal
+
+# Secrets
+.env
+*.env
+>>>>>>> 55b24b6 (daily app)

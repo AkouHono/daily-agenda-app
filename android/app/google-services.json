@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "541810139092",
+    "project_id": "dailyapp-52ddd",
+    "storage_bucket": "dailyapp-52ddd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541810139092:android:6a10c194bf4b7868e98041",
+        "android_client_info": {
+          "package_name": "com.antigravity.daily_agenda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541810139092-chlstujs899j19sik55mu0sj39ejs3vg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR6c4kBGxbu6FvujpK49FwOhwMA0Ce6us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541810139092-chlstujs899j19sik55mu0sj39ejs3vg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
