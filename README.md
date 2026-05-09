@@ -31,52 +31,7 @@ An intelligent, feature-rich daily agenda application built with Flutter, offeri
 - **Category Analytics**: Time spent per category
 - **Streak Tracking**: Consistency monitoring
 
-### 🔔 Advanced Notifications
-- **Custom Sounds**: Different notifications per category
-- **Smart Timing**: Notifications 5/15/30 minutes before
-- **Do Not Disturb**: Quiet hours support
-- **Location-Based**: Optional location-based task triggers
-
-## Project Structure
-
 ```
-lib/
-├── main.dart                 # App entry point
-├── config/
-│   ├── theme/               # Theme configuration
-│   └── constants.dart        # App constants
-├── models/
-│   ├── task.dart            # Task model with Hive adaptation
-│   ├── category.dart        # Category model
-│   └── analytics.dart       # Analytics data model
-├── providers/
-│   ├── task_provider.dart   # Task state management
-│   ├── theme_provider.dart  # Theme management
-│   └── analytics_provider.dart
-├── services/
-│   ├── notification_service.dart
-│   ├── storage_service.dart
-│   ├── analytics_service.dart
-│   └── ai_suggestion_service.dart
-├── screens/
-│   ├── home_screen.dart
-│   ├── task_detail_screen.dart
-│   ├── add_task_screen.dart
-│   ├── calendar_screen.dart
-│   ├── analytics_screen.dart
-│   └── settings_screen.dart
-├── widgets/
-│   ├── task_card.dart
-│   ├── task_list.dart
-│   ├── calendar_widget.dart
-│   ├── analytics_chart.dart
-│   └── custom_app_bar.dart
-└── utils/
-    ├── date_utils.dart
-    ├── validators.dart
-    └── extensions.dart
-```
-
 ## Getting Started
 
 ### Prerequisites
