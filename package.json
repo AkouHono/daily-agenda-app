@@ -1,9 +1,9 @@
 {
   "name": "daily-agenda-app",
   "version": "1.0.0",
-  "description": "Daily Agenda App - Flutter + Node.js Backend",
+  "description": "Daily Agenda App - Flutter Web + Node.js Backend",
   "scripts": {
-    "build": "flutter pub get && flutter build web && cd server && npm install",
+    "build": "cd server && npm install",
     "start": "node server/index.js"
   },
   "devDependencies": {}
