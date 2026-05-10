@@ -120,3 +120,5 @@ server/*.db-journal
 .env
 *.env
 >>>>>>> 55b24b6 (daily app)
+.vercel
+.env*.local
