@@ -84,9 +84,7 @@ app.*.map.json
 /android/app/release
 
 # Node.js
-server/node_modules/
-server/*.db
-server/*.db-journal
+# (Removed server directory)
 
 # Secrets
 .env

@@ -1,32 +1,7 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "server/index.js",
-      "use": "@vercel/node"
-    }
-  ],
+  "cleanUrls": true,
   "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "server/index.js"
-    },
-    {
-      "src": "/register",
-      "dest": "server/index.js"
-    },
-    {
-      "src": "/login",
-      "dest": "server/index.js"
-    },
-    {
-      "src": "/tasks",
-      "dest": "server/index.js"
-    },
-    {
-      "src": "/admin/(.*)",
-      "dest": "server/index.js"
-    },
     {
       "handle": "filesystem"
     },
